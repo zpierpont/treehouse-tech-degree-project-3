@@ -1,0 +1,75 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+h1,
+p,
+.signup-heading {
+    margin-left: 0;
+    text-align: center;
+}
+
+
+
+h1 {
+    background: rgba(51, 50, 50);
+    color: white;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin: -8px;
+}
+
+h2,
+form > * {
+    margin-left: 5%;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+.hr-1 {
+    background: black;
+    color: black;
+    height: 5px;
+    margin-bottom: 4px;
+    width: 90%;
+}
+
+.hr-2 {
+    background: black;
+    color: black;
+    height: 2px;
+    margin-top: 0;
+    width: 90%;
+}
+
+form > * {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+label {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+footer p {
+    font-size: 16px;
+}
+
+input,
+select,
+textarea {
+    border-style: none;
+    background: rgb(235, 225, 225);
+    border-radius: 10px;
+    height: 8em;
+} 
+
+input:clicked {
+    border-color: blue;
+
+}
